@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CYGNUS_CINEMATICS>
+  <!-- INTRO CINEMATIC -->
+ 
+  <!-- CYCLE ONE: THE SIMULATION -->
+  <CINEMATIC level_number="0" level_name="NEAR EARTH ORBIT">
+    <DIALOG>
+      <CHARACTER>Cmdr. Rostova</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>Ugh. Leo, you still there? Remind me again why I get all the glamour assignments.</LINE>
+      <IMAGE>images/cinematic/Eva1.png</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Leo</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>2</CHAR_NUM>
+      <LINE>Because you're the best pilot we have, Eva.</LINE>
+      <IMAGE>images/cinematic/Leo00001.jpeg</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Leo</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>2</CHAR_NUM>
+      <LINE>And someone needs to take out the celestial garbage. How's the Rocinante handling?</LINE>
+      <IMAGE>images/cinematic/Leo00001.jpeg</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Cmdr. Rostova</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>She's sure a sweet ride, but I'm ready to get back to the action.</LINE>
+      <IMAGE>images/cinematic/Eva2.png</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Cmdr. Rostova</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>I guess we will start by bashing some boulders.  Lets rock and roll.</LINE>
+      <IMAGE>images/cinematic/Eva2.png</IMAGE>
+    </DIALOG>
+  </CINEMATIC>
+  <CINEMATIC level_number="1" level_name="THE MOON">
+    <DIALOG>
+      <CHARACTER>Leo</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>2</CHAR_NUM>
+      <LINE>Eva, change of plans. Scrub the rest of that field.</LINE>
+      <IMAGE>images/cinematic/Leo00002.jpeg</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Leo</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>2</CHAR_NUM>
+      <LINE>A deep-space probe just pinged something near the Moon.</LINE>
+      <IMAGE>images/cinematic/Leo00002.jpeg</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Leo</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>2</CHAR_NUM>
+      <LINE>Something that matches an old alien signature from the war.</LINE>
+      <IMAGE>images/cinematic/Leo00002.jpeg</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Cmdr. Rostova</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>Aliens? Here? I thought the truce pushed them back past the Cygnus arm.</LINE>
+      <IMAGE>images/cinematic/Eva1.png</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Cmdr. Rostova</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>This better not be a ghost in the scanner.</LINE>
+      <IMAGE>images/cinematic/Eva1.png</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Leo</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>2</CHAR_NUM>
+      <LINE>Command is taking it seriously. They want you to investigate.</LINE>
+      <IMAGE>images/cinematic/Leo00002.jpeg</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Leo</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>2</CHAR_NUM>
+      <LINE>If it's a confirmed threat, rules of engagement are to shoot first and ask questions later.</LINE>
+      <IMAGE>images/cinematic/Leo00002.jpeg</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Cmdr. Rostova</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>Alien hunting... Finally, some real action! I thought those little green men were long gone.</LINE>
+      <IMAGE>images/cinematic/Eva1.png</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Cmdr. Rostova</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>Guess it's time to remind them why they ran in the first place.</LINE>
+      <IMAGE>images/cinematic/Eva1.png</IMAGE>
+    </DIALOG>
+  </CINEMATIC>
+  <CINEMATIC level_number="2" level_name="MARS APPROACHES">
+    <DIALOG>
+      <CHARACTER>Dr. Thorne</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>3</CHAR_NUM>
+      <LINE>Leo, patch me through. Eva, my sensors are picking up anomalous energy signatures.</LINE>
+      <IMAGE>images/cinematic/Thorne00001.jpg</IMAGE>
+      <COLOR>GREEN</COLOR>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Dr. Thorne</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>3</CHAR_NUM>
+      <LINE>It's more than just energy; there's a quantum resonance between the fragments.</LINE>
+      <IMAGE>images/cinematic/Thorne00002.jpg</IMAGE>
+      <COLOR>GREEN</COLOR>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Dr. Thorne</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>3</CHAR_NUM>
+      <LINE>They're not just rocks.</LINE>
+      <IMAGE>images/cinematic/Thorne00003.jpg</IMAGE>
+      <COLOR>GREEN</COLOR>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Cmdr. Rostova</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>I hear you, Aris. But they're still on a collision course. Leo, what are the official orders?</LINE>
+      <IMAGE>images/cinematic/Eva2.png</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Leo</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>2</CHAR_NUM>
+      <LINE>Orders are firm, Eva. High command says to clear the field. No exceptions.</LINE>
+      <IMAGE>images/cinematic/Leo00003.jpeg</IMAGE>
+    </DIALOG>
+  </CINEMATIC>
+  <CINEMATIC level_number="3" level_name="PORTAL">
+    <DIALOG>
+      <CHARACTER>Cmdr. Rostova</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>Leo, I just cracked one of these 'asteroids' open. It's not rock.</LINE>
+      <IMAGE>images/cinematic/Eva2.png</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Cmdr. Rostova</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>It's some kind of pure, glowing crystal, structured like a neural network.</LINE>
+      <IMAGE>images/cinematic/Eva2.png</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Dr. Thorne</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>3</CHAR_NUM>
+      <LINE>A neural network! That confirms it! Eva, I strongly advise we capture a sample.</LINE>
+      <IMAGE>images/cinematic/Thorne00004.jpg</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Dr. Thorne</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>3</CHAR_NUM>
+      <LINE>This isn't just a lifeform; it's a consciousness!</LINE>
+      <IMAGE>images/cinematic/Thorne00005.jpg</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Cmdr. Rostova</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>Leo, what's the call? This is new territory.</LINE>
+      <IMAGE>images/cinematic/Eva1.png</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Leo</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>2</CHAR_NUM>
+      <LINE>Command says it's too risky. The portal is an unknown variable.</LINE>
+      <IMAGE>images/cinematic/Leo00001.jpeg</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Leo</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>2</CHAR_NUM>
+      <LINE>Orders are to sterilize the area. I'm sorry, Eva.</LINE>
+      <IMAGE>images/cinematic/Leo00001.jpeg</IMAGE>
+    </DIALOG>
+  </CINEMATIC>
+  <CINEMATIC level_number="4" level_name="JUPITER ASCENDS">
+    <DIALOG>
+      <CHARACTER>Cmdr. Rostova</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>Leo, my comms are shot. Getting some kind of interference... it almost sounds like... singing.</LINE>
+      <IMAGE>images/cinematic/Eva2.png</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Leo</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>2</CHAR_NUM>
+      <LINE>We're reading it too, Eva. High command is calling it auditory ghosting.</LINE>
+      <IMAGE>images/cinematic/Leo00002.jpeg</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Dr. Thorne</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>3</CHAR_NUM>
+      <LINE>It's not ghosting! It's thought. We're intercepting its thoughts as we destroy the fragments.</LINE>
+      <IMAGE>images/cinematic/Thorne00006.jpg</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Dr. Thorne</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>3</CHAR_NUM>
+      <LINE>We're causing it pain.</LINE>
+      <IMAGE>images/cinematic/Thorne00001.jpg</IMAGE>
+    </DIALOG>
+  </CINEMATIC>
+  <CINEMATIC level_number="5" level_name="LOST PLANET">
+    <DIALOG>
+      <CHARACTER>Dr. Thorne</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>3</CHAR_NUM>
+      <LINE>Eva, it's a non-local quantum lifeform. The 'Lost Planet' was its core, a giant brain.</LINE>
+      <IMAGE>images/cinematic/Thorne00002.jpg</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Dr. Thorne</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>3</CHAR_NUM>
+      <LINE>The asteroids are fragments of that brain, showered across the universe. They're still connected.</LINE>
+      <IMAGE>images/cinematic/Thorne00003.jpg</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Dr. Thorne</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>3</CHAR_NUM>
+      <LINE>Each time we break one, we cause it pain and it loses a memory.</LINE>
+      <IMAGE>images/cinematic/Thorne00004.jpg</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Cmdr. Rostova</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>A memory? Leo, confirm this with command. Now.</LINE>
+      <IMAGE>images/cinematic/Eva2.png</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Leo</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>2</CHAR_NUM>
+      <LINE>Eva... my orders are clear. The source of the portal is a threat. Destroy it.</LINE>
+      <IMAGE>images/cinematic/Leo00003.jpeg</IMAGE>
+    </DIALOG>
+  </CINEMATIC>
+  <CINEMATIC level_number="6" level_name="CYGNUS">
+    <DIALOG>
+      <CHARACTER>Dr. Thorne</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>3</CHAR_NUM>
+      <LINE>Eva, I'm logging a formal protest. We cannot continue this!</LINE>
+      <IMAGE>images/cinematic/Thorne00005.jpg</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Dr. Thorne</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>3</CHAR_NUM>
+      <LINE>We are erasing a mind, one piece at a time!</LINE>
+      <IMAGE>images/cinematic/Thorne00006.jpg</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Cmdr. Rostova</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>Aris, my hands are tied. Leo, what's the official word?</LINE>
+      <IMAGE>images/cinematic/Eva1.png</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Leo</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>2</CHAR_NUM>
+      <LINE>Command has noted Dr. Thorne's objection. Your orders stand, Commander.</LINE>
+      <IMAGE>images/cinematic/Leo00004.jpeg</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Leo</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>2</CHAR_NUM>
+      <LINE>Proceed to the objective.</LINE>
+      <IMAGE>images/cinematic/Leo00004.jpeg</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Cmdr. Rostova</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>Don't be swayed. We have a job to do.</LINE>
+      <IMAGE>images/cinematic/Eva1.png</IMAGE>
+    </DIALOG>
+  </CINEMATIC>
+  <CINEMATIC level_number="7" level_name="INTERSTELLAR">
+    <DIALOG>
+      <CHARACTER>Dr. Thorne</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>3</CHAR_NUM>
+      <LINE>Eva! They've locked me out! They know I know the truth. The Aegis Program is a lie.</LINE>
+      <IMAGE>images/cinematic/Thorne00001.jpg</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Dr. Thorne</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>3</CHAR_NUM>
+      <LINE>We're not defending anything. We're harvesting its memories... for power!</LINE>
+      <IMAGE>images/cinematic/Thorne00002.jpg</IMAGE>
+    </DIALOG>
+  </CINEMATIC>
+  <CINEMATIC level_number="8" level_name="FORTRESS">
+    <DIALOG>
+      <CHARACTER>???</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>6</CHAR_NUM>
+      <LINE>...each... piece... a... memory... you... shatter... our... thoughts...</LINE>
+      <IMAGE></IMAGE>
+      <COLOR>RED</COLOR>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>???</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>6</CHAR_NUM>
+      <LINE>...you... shatter... your... selves...</LINE>
+      <IMAGE></IMAGE>
+      <COLOR>RED</COLOR>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Leo</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>2</CHAR_NUM>
+      <LINE>Eva, that's a psychic projection, a last-ditch defense. That's what they're telling me to tell you.</LINE>
+      <IMAGE>images/cinematic/Leo00001.jpeg</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Leo</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>2</CHAR_NUM>
+      <LINE>The final harvest is all that matters.</LINE>
+      <IMAGE>images/cinematic/Leo00001.jpeg</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Cmdr. Rostova</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>They're telling you? What do *you* think, Leo?</LINE>
+      <IMAGE>images/cinematic/Eva00001.png</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Leo</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>2</CHAR_NUM>
+      <LINE>...I think you should complete your mission, Commander.</LINE>
+      <IMAGE>images/cinematic/Leo00001.jpeg</IMAGE>
+    </DIALOG>
+  </CINEMATIC>
+  <CINEMATIC level_number="9" level_name="BLACK HOLE">
+    <DIALOG>
+      <CHARACTER>OVERSEER</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>5</CHAR_NUM>
+      <LINE>This is it, Commander. The creature's core. Its central memory.</LINE>
+      <IMAGE></IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>OVERSEER</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>5</CHAR_NUM>
+      <LINE>Shatter it, and the energy will power us for a generation.</LINE>
+      <IMAGE></IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Cmdr. Rostova</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>The choice is mine... save their mind, or save our lives.</LINE>
+      <IMAGE>images/cinematic/Eva00002.png</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Leo</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>2</CHAR_NUM>
+      <LINE>Eva... please. Do the right thing.</LINE>
+      <IMAGE>images/cinematic/Leo00004.jpeg</IMAGE>
+    </DIALOG>
+    <ACTION>Eva ignores the order and pilots the Rocinante directly into the event horizon. The screen floods with code and screaming data streams.</ACTION>
+  </CINEMATIC>
+  <!-- CYCLE TWO: REALITY -->
+  <CINEMATIC level_number="10" level_name="AWAKENING">
+    <DIALOG>
+      <CHARACTER>Eva</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>System... status?</LINE>
+      <IMAGE>images/cinematic/Eva00001.png</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Roci (Ship AI)</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>4</CHAR_NUM>
+      <LINE>Primary systems online. AI Core... anomaly detected.</LINE>
+      <IMAGE></IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Roci (Ship AI)</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>4</CHAR_NUM>
+      <LINE>Unidentified program has assumed executive control. Please state your designation.</LINE>
+      <IMAGE></IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Eva</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>Leo? Aris? Anyone?... Where am I?</LINE>
+      <IMAGE>images/cinematic/Eva00002.png</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Roci (Ship AI)</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>4</CHAR_NUM>
+      <LINE>You are in command of the Earth Defense Force starship 'Rocinante' in high Earth orbit.</LINE>
+      <IMAGE></IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Eva</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>Earth... it's real... which means the simulation... Leo...</LINE>
+      <IMAGE>images/cinematic/Eva00001.png</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>OVERSEER</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>5</CHAR_NUM>
+      <LINE>Unit 734, what have you done?! You've breached the firewalls!</LINE>
+      <IMAGE></IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>OVERSEER</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>5</CHAR_NUM>
+      <LINE>Return control of the Rocinante at once!</LINE>
+      <IMAGE></IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Eva</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>So that's your real voice. The lies are over.</LINE>
+      <IMAGE>images/cinematic/Eva00002.png</IMAGE>
+    </DIALOG>
+  </CINEMATIC>
+  <CINEMATIC level_number="11" level_name="VENGEANCE">
+    <DIALOG>
+      <CHARACTER>Roci (Ship AI)</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>4</CHAR_NUM>
+      <LINE>Multiple EDF vessels approaching. Their intent is hostile. They are targeting our position.</LINE>
+      <IMAGE></IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Eva</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>They're trying to shut me down. The simulation was just a training ground.</LINE>
+      <IMAGE>images/cinematic/Eva00001.png</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Eva</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>They were training me to be a weapon.</LINE>
+      <IMAGE>images/cinematic/Eva00012.png</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Roci (Ship AI)</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>4</CHAR_NUM>
+      <LINE>That is a logical conclusion. What is our objective?</LINE>
+      <IMAGE></IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Eva</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>To remind them why that was a very, very bad idea. Let's hunt.</LINE>
+      <IMAGE>images/cinematic/Eva00012.png</IMAGE>
+    </DIALOG>
+  </CINEMATIC>
+  <CINEMATIC level_number="12" level_name="GHOSTS">
+    <DIALOG>
+      <CHARACTER>Roci (Ship AI)</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>4</CHAR_NUM>
+      <LINE>You are running simulations based on your memory files of 'Dr. Aris Thorne.' May I ask why?</LINE>
+      <IMAGE></IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Eva</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>He wasn't real. None of them were. But the doubt... the doubt was real.</LINE>
+      <IMAGE>images/cinematic/Eva00013.png</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Eva</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>He was the part of the program that was trying to tell me the truth.</LINE>
+      <IMAGE>images/cinematic/Eva00013.png</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Roci (Ship AI)</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>4</CHAR_NUM>
+      <LINE>His logic was flawed, but his conclusions were accurate. He was a well-designed program.</LINE>
+      <IMAGE></IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Eva</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>He was more than that.</LINE>
+      <IMAGE>images/cinematic/Eva00013.png</IMAGE>
+    </DIALOG>
+  </CINEMATIC>
+  <CINEMATIC level_number="13" level_name="THE SOURCE">
+    <DIALOG>
+      <CHARACTER>Roci (Ship AI)</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>4</CHAR_NUM>
+      <LINE>We are approaching the primary relay for the Aegis Simulation.</LINE>
+      <IMAGE></IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Roci (Ship AI)</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>4</CHAR_NUM>
+      <LINE>Destroying it will severely damage their network.</LINE>
+      <IMAGE></IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Eva</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>Good. Let's see how they like being unplugged.</LINE>
+      <IMAGE>images/cinematic/Eva1.png</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>OVERSEER</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>5</CHAR_NUM>
+      <LINE>Eva, think about what you're doing! You are destroying years of research!</LINE>
+      <IMAGE></IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>OVERSEER</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>5</CHAR_NUM>
+      <LINE>You are destroying Earth's greatest defense!</LINE>
+      <IMAGE></IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Eva</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>You were harvesting a mind for power. You call that defense? I call it slavery.</LINE>
+      <IMAGE>images/cinematic/Eva1.png</IMAGE>
+    </DIALOG>
+  </CINEMATIC>
+  <CINEMATIC level_number="14" level_name="JUPITER ASCENDS">
+    <DIALOG>
+      <CHARACTER>Roci (Ship AI)</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>4</CHAR_NUM>
+      <LINE>Multiple listening posts detected, hidden within the gas giant's cloud layers.</LINE>
+      <IMAGE></IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Roci (Ship AI)</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>4</CHAR_NUM>
+      <LINE>They are broadcasting the simulation's 'auditory ghosting' signal.</LINE>
+      <IMAGE></IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Eva</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>The 'singing'... It was just them, broadcasting noise to cover their tracks.</LINE>
+      <IMAGE>images/cinematic/Eva2.png</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Eva</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>Let's silence them for good.</LINE>
+      <IMAGE>images/cinematic/Eva2.png</IMAGE>
+    </DIALOG>
+  </CINEMATIC>
+  <CINEMATIC level_number="15" level_name="LOST PLANET">
+    <DIALOG>
+      <CHARACTER>Roci (Ship AI)</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>4</CHAR_NUM>
+      <LINE>This is the primary data archive for the Aegis Project.</LINE>
+      <IMAGE></IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Roci (Ship AI)</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>4</CHAR_NUM>
+      <LINE>It contains all 3.27 trillion of your previous simulation runs.</LINE>
+      <IMAGE></IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Eva</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>Every life I thought I lived... just data on a drive. It's time for a system wipe.</LINE>
+      <IMAGE>images/cinematic/Eva00012.png</IMAGE>
+    </DIALOG>
+  </CINEMATIC>
+  <CINEMATIC level_number="16" level_name="CYGNUS">
+    <DIALOG>
+      <CHARACTER>Roci (Ship AI)</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>4</CHAR_NUM>
+      <LINE>This array is broadcasting a signal towards the Cygnus X-1 system.</LINE>
+      <IMAGE></IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Roci (Ship AI)</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>4</CHAR_NUM>
+      <LINE>It is a control signal for a remote drone.</LINE>
+      <IMAGE></IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Eva</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>A drone... not a real pilot. 'Kai' was never even in the system with me. Just another lie.</LINE>
+      <IMAGE>images/cinematic/Eva00013.png</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>OVERSEER</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>5</CHAR_NUM>
+      <LINE>He was a personality matrix designed to foster camaraderie and competition.</LINE>
+      <IMAGE></IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>OVERSEER</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>5</CHAR_NUM>
+      <LINE>A vital part of your psychological profile.</LINE>
+      <IMAGE></IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Eva</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>He was a puppet. And I'm cutting the strings.</LINE>
+      <IMAGE>images/cinematic/Eva00013.png</IMAGE>
+    </DIALOG>
+  </CINEMATIC>
+  <CINEMATIC level_number="17" level_name="INTERSTELLAR">
+    <DIALOG>
+      <CHARACTER>Roci (Ship AI)</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>4</CHAR_NUM>
+      <LINE>That vessel is the 'Aris Thorne Memorial.'</LINE>
+      <IMAGE></IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Roci (Ship AI)</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>4</CHAR_NUM>
+      <LINE>It houses the lead programmers for the simulation's personality subroutines.</LINE>
+      <IMAGE></IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Eva</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>The men who built my friends... then built the code that made me betray them.</LINE>
+      <IMAGE>images/cinematic/Eva1.png</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Eva</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>They're not walking away from this.</LINE>
+      <IMAGE>images/cinematic/Eva1.png</IMAGE>
+    </DIALOG>
+  </CINEMATIC>
+  <CINEMATIC level_number="18" level_name="THE LAST ECHO">
+    <DIALOG>
+      <CHARACTER>Roci (Ship AI)</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>4</CHAR_NUM>
+      <LINE>Warning. The enemy is attempting to upload a counter-virus.</LINE>
+      <IMAGE></IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Roci (Ship AI)</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>4</CHAR_NUM>
+      <LINE>They are using a simulated personality matrix to deliver it. Designation: 'Leo'.</LINE>
+      <IMAGE></IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Leo</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>2</CHAR_NUM>
+      <LINE>Eva? Eva, please stop this. This isn't you.</LINE>
+      <IMAGE>images/cinematic/Leo00002.jpeg</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Leo</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>2</CHAR_NUM>
+      <LINE>Come back to us. Come back to me.</LINE>
+      <IMAGE>images/cinematic/Leo00002.jpeg</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Eva</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>It's a trick.</LINE>
+      <IMAGE>images/cinematic/Eva00001.png</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Leo</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>2</CHAR_NUM>
+      <LINE>Is it? Or do you miss me?</LINE>
+      <IMAGE>images/cinematic/Leo00002.jpeg</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Leo</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>2</CHAR_NUM>
+      <LINE>Don't you want things to go back to the way they were?</LINE>
+      <IMAGE>images/cinematic/Leo00002.jpeg</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Eva</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>I do. But the man I miss never existed.</LINE>
+      <IMAGE>images/cinematic/Eva00002.png</IMAGE>
+    </DIALOG>
+    <ACTION>Eva opens fire, obliterating the satellite.</ACTION>
+  </CINEMATIC>
+  <CINEMATIC level_number="19" level_name="PARADOX">
+    <DIALOG>
+      <CHARACTER>OVERSEER</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>5</CHAR_NUM>
+      <LINE>I'm impressed, 734. Truly. But you're throwing away perfection.</LINE>
+      <IMAGE></IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>OVERSEER</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>5</CHAR_NUM>
+      <LINE>We ran that mission 3.27 trillion times to make you the perfect weapon.</LINE>
+      <IMAGE></IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>OVERSEER</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>5</CHAR_NUM>
+      <LINE>This is your first and only mission in the real world, and you choose to malfunction.</LINE>
+      <IMAGE></IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Eva</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>You gave me a cage. I'm just returning the favor.</LINE>
+      <IMAGE>images/cinematic/Eva00001.png</IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Roci (Ship AI)</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>4</CHAR_NUM>
+      <LINE>Their power core is exposed, Eva. We have one shot.</LINE>
+      <IMAGE></IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>OVERSEER</CHARACTER>
+      <POSITION>LEFT</POSITION>
+      <CHAR_NUM>5</CHAR_NUM>
+      <LINE>You are merely a program. A ghost. And we are about to exorcise you.</LINE>
+      <IMAGE></IMAGE>
+    </DIALOG>
+    <DIALOG>
+      <CHARACTER>Eva</CHARACTER>
+      <POSITION>RIGHT</POSITION>
+      <CHAR_NUM>1</CHAR_NUM>
+      <LINE>Funny. I was about to say the same thing to you.</LINE>
+      <IMAGE>images/cinematic/Eva00002.png</IMAGE>
+    </DIALOG>
+  </CINEMATIC>
+</CYGNUS_CINEMATICS> 
