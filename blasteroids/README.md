@@ -12,7 +12,21 @@ Downloaded from: https://www.billy2thejack.com/
 - **S**: Start Game
 
 ## How to Run
-Simply open `index.html` in a web browser.
+
+### Option 1: Quick Launch (Recommended)
+Double-click `launch.sh` or run:
+```bash
+./launch.sh
+```
+This will automatically start the server and open the game in your browser.
+
+### Option 2: Manual Launch
+```bash
+python3 -m http.server 8000
+```
+Then open http://localhost:8000 in your browser.
+
+**Note:** You cannot simply open `index.html` directly due to CORS restrictions. A web server is required.
 
 ## Files
 - `index.html` - Main game file (includes embedded CSS and game logic)
