@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<highscores>
+    <entry name="DEV" score="1000" />
+    <entry name="ACE" score="900" />
+    <entry name="PRO" score="800" />
+    <entry name="GAM" score="700" />
+    <entry name="ER " score="600" />
+    <entry name="FAN" score="500" />
+    <entry name="BOT" score="400" />
+    <entry name="BUG" score="300" />
+    <entry name="ROX" score="200" />
+    <entry name="LOL" score="100" />
+</highscores>

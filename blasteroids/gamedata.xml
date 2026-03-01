@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blasteroids>
+    
+    <ship>
+        <thrust>0.3</thrust>
+        <rotationSpeed>0.1</rotationSpeed>
+        <maxSpeed>8</maxSpeed>
+        <friction>0.98</friction>
+        <shieldDuration>240</shieldDuration>
+        <projectile>
+            <speed>10</speed>
+            <lifetime>60</lifetime>
+        </projectile>
+        <fireCooldown>12</fireCooldown>
+        <gridLighting>
+            <intensity>1.0</intensity>
+            <radius>40</radius>
+        </gridLighting>
+    </ship>
+    
+    <physics>
+        <debrisFriction>0.99</debrisFriction>
+    </physics>
+
+	<gameplay>
+    		<gameOverScreenDuration>2</gameOverScreenDuration>
+    		<attractModeDuration>10</attractModeDuration>
+    		<attractMusicCooldown>20</attractMusicCooldown>
+    		<attractMusicPlayTime>8</attractMusicPlayTime>
+    		<textCollisionFragmentChance>0.15</textCollisionFragmentChance>
+    		<textCollisionColorChangeCount>5</textCollisionColorChangeCount>
+    		<textCollisionPacmanSpawnChance>0.10</textCollisionPacmanSpawnChance>
+    		<pacmanLimit>1</pacmanLimit>
+    		<pacmanVolume>0.01</pacmanVolume>
+    		<novabombVolume>0.1</novabombVolume>
+    		<noShipSpawnChance>0.15</noShipSpawnChance>
+    		<waveTransitionDelay>60</waveTransitionDelay>
+    		<endOfWaveDelay>2</endOfWaveDelay>
+    		<transitionOutDuration>5</transitionOutDuration>
+    		<transitionStars>
+    			<count>100</count>
+    			<minSpeed>2</minSpeed>
+    			<maxSpeed>40</maxSpeed>
+    		</transitionStars>
+    		<attractModeEnemySpawning>
+    			<spawnInterval>5</spawnInterval>
+    			<enemyTypes>
+    				<saucer>0.3</saucer>
+    				<graviton>0.2</graviton>
+    				<cygnus>0.1</cygnus>
+    				<novabomb>0.1</novabomb>
+    				<nothing>0.3</nothing>
+    			</enemyTypes>
+    		</attractModeEnemySpawning>
+    		<textColors>
+    			<color>yellow</color>
+    			<color>lightblue</color>
+    			<color>white</color>
+    			<color>lightgreen</color>
+    			<color>lightorange</color>
+    		</textColors>
+	</gameplay>
+
+    <enemies>
+        <saucer>
+            <score>200</score>
+        </saucer>
+        <asteroids>
+            <scoreLarge>10</scoreLarge>
+            <scoreMedium>20</scoreMedium>
+            <scoreSmall>50</scoreSmall>
+        </asteroids>
+        <cygnus>
+            <rotationSpeed>0.062</rotationSpeed>
+            <scoreNormal>500</scoreNormal>
+            <scoreEscaping>2000</scoreEscaping>
+        </cygnus>
+        <novabomb>
+            <radius>130</radius>
+            <pushForce>12</pushForce>
+            <score>1000</score>
+        </novabomb>
+        <graviton>
+            <tractorPullSpeed>0.8</tractorPullSpeed>
+            <tractorTangentialForce>0.150</tractorTangentialForce>
+            <tractorMaxOrbitalSpeed>3.0</tractorMaxOrbitalSpeed>
+            <kickForce>4</kickForce>
+            <score>500</score>
+            <baseOrbitRadius>240</baseOrbitRadius>
+            <maxCapturedAsteroidSpeed>4.0</maxCapturedAsteroidSpeed>
+        </graviton>
+    </enemies>
+
+    <world>
+        <blackHole>
+            <pullRadiusRatio>0.30</pullRadiusRatio>
+            <minPull>0.00325</minPull>
+            <maxPull>0.0725</maxPull>
+            <lethalRadius>5</lethalRadius>
+            <growth>0.20</growth>
+            <darkeningRadius>6.0</darkeningRadius>
+            <shockwaveIntensity>40</shockwaveIntensity>
+            <shockwaveSpeed>6</shockwaveSpeed>
+            <shadowSpinMultiplier>2.0</shadowSpinMultiplier>
+            <shadowLayers>3</shadowLayers>
+            <shadowOpacity>0.9</shadowOpacity>
+        </blackHole>
+        <grid>
+            <opacity>0.10</opacity>
+        </grid>
+    </world>
+
+    <waveManager>
+        <wave id="1">
+            <displayName>NEAR EARTH ORBIT</displayName>
+            <backgroundImage>images/earth_orbit.jpg</backgroundImage>
+            <missionObjective>1</missionObjective>
+            <asteroids>3</asteroids>
+            <speedFactor>1.0</speedFactor>
+            <shipSpawnRateMultiplier>1.0</shipSpawnRateMultiplier>
+            <powerupLimit>2</powerupLimit>
+            <enemyShipLimit>2</enemyShipLimit>
+            <unlocks>
+                <saucer>false</saucer>
+                <graviton>false</graviton>
+                <cygnus>false</cygnus>
+                <novabomb>false</novabomb>
+            </unlocks>
+        </wave>
+        <wave id="2">
+            <displayName>The Moon</displayName>
+            <backgroundImage>images/moon.jpg</backgroundImage>
+            <missionObjective>2</missionObjective>
+            <asteroids>4</asteroids>
+            <speedFactor>1.05</speedFactor>
+            <shipSpawnRateMultiplier>0.9</shipSpawnRateMultiplier>
+            <powerupLimit>2</powerupLimit>
+            <enemyShipLimit>2</enemyShipLimit>
+            <unlocks>
+                <saucer>true</saucer>
+                <graviton>false</graviton>
+                <cygnus>false</cygnus>
+                <novabomb>false</novabomb>
+            </unlocks>
+        </wave>
+        <wave id="3">
+            <displayName>MARS APPROACHES</displayName>
+            <backgroundImage>images/mars.jpg</backgroundImage>
+            <missionObjective>2</missionObjective>
+            <asteroids>5</asteroids>
+            <speedFactor>1.1</speedFactor>
+            <shipSpawnRateMultiplier>0.8</shipSpawnRateMultiplier>
+            <powerupLimit>2</powerupLimit>
+            <enemyShipLimit>3</enemyShipLimit>
+            <unlocks>
+                <saucer>true</saucer>
+                <graviton>false</graviton>
+                <cygnus>false</cygnus>
+                <novabomb>true</novabomb>
+            </unlocks>
+        </wave>
+        <wave id="4">
+            <displayName>PORTAL</displayName>
+            <backgroundImage>images/portal.jpg</backgroundImage>
+            <missionObjective>2</missionObjective>
+            <asteroids>5</asteroids>
+            <speedFactor>1.15</speedFactor>
+            <shipSpawnRateMultiplier>0.7</shipSpawnRateMultiplier>
+            <powerupLimit>2</powerupLimit>
+            <enemyShipLimit>3</enemyShipLimit>
+            <unlocks>
+                <saucer>true</saucer>
+                <graviton>true</graviton>
+                <cygnus>false</cygnus>
+                <novabomb>true</novabomb>
+            </unlocks>
+        </wave>
+        <wave id="5">
+            <displayName>JUPITER ASCENDS</displayName>
+            <backgroundImage>images/jupiter.jpg</backgroundImage>
+            <missionObjective>2</missionObjective>
+            <asteroids>6</asteroids>
+            <speedFactor>1.2</speedFactor>
+            <shipSpawnRateMultiplier>0.6</shipSpawnRateMultiplier>
+            <powerupLimit>2</powerupLimit>
+            <enemyShipLimit>3</enemyShipLimit>
+            <unlocks>
+                <saucer>true</saucer>
+                <graviton>true</graviton>
+                <cygnus>false</cygnus>
+                <novabomb>true</novabomb>
+            </unlocks>
+        </wave>
+        <wave id="6">
+            <displayName>LOST PLANET</displayName>
+            <backgroundImage>images/lost.jpg</backgroundImage>
+            <missionObjective>2</missionObjective>
+            <asteroids>6</asteroids>
+            <speedFactor>1.25</speedFactor>
+            <shipSpawnRateMultiplier>0.5</shipSpawnRateMultiplier>
+            <powerupLimit>2</powerupLimit>
+            <enemyShipLimit>4</enemyShipLimit>
+            <unlocks>
+                <saucer>true</saucer>
+                <graviton>true</graviton>
+                <cygnus>true</cygnus>
+                <novabomb>true</novabomb>
+            </unlocks>
+        </wave>
+        <wave id="7">
+            <displayName>CYGNUS</displayName>
+            <backgroundImage>images/cygnus.png</backgroundImage>
+            <missionObjective>2</missionObjective>
+            <asteroids>7</asteroids>
+            <speedFactor>1.3</speedFactor>
+            <shipSpawnRateMultiplier>0.3</shipSpawnRateMultiplier>
+            <powerupLimit>2</powerupLimit>
+            <enemyShipLimit>4</enemyShipLimit>
+            <unlocks>
+                <saucer>false</saucer>
+                <graviton>false</graviton>
+                <cygnus>true</cygnus>
+                <novabomb>false</novabomb>
+            </unlocks>
+        </wave>
+        <wave id="8">
+            <displayName>INTERSTELLAR</displayName>
+            <backgroundImage>images/interstellar.png</backgroundImage>
+            <missionObjective>2</missionObjective>
+            <asteroids>8</asteroids>
+            <speedFactor>1.35</speedFactor>
+            <shipSpawnRateMultiplier>0.25</shipSpawnRateMultiplier>
+            <powerupLimit>2</powerupLimit>
+            <enemyShipLimit>4</enemyShipLimit>
+            <unlocks>
+                <saucer>true</saucer>
+                <graviton>true</graviton>
+                <cygnus>true</cygnus>
+                <novabomb>true</novabomb>
+            </unlocks>
+        </wave>
+        <wave id="9">
+            <displayName>FORTRESS</displayName>
+            <backgroundImage>images/fortress.png</backgroundImage>
+            <missionObjective>2</missionObjective>
+            <asteroids>9</asteroids>
+            <speedFactor>1.4</speedFactor>
+            <shipSpawnRateMultiplier>0.2</shipSpawnRateMultiplier>
+            <powerupLimit>2</powerupLimit>
+            <enemyShipLimit>5</enemyShipLimit>
+            <unlocks>
+                <saucer>true</saucer>
+                <graviton>true</graviton>
+                <cygnus>true</cygnus>
+                <novabomb>true</novabomb>
+            </unlocks>
+        </wave>
+        <wave id="10">
+            <displayName>BLACK HOLE</displayName>
+            <backgroundImage>images/black.png</backgroundImage>
+            <missionObjective>2</missionObjective>
+            <asteroids>10</asteroids>
+            <speedFactor>1.5</speedFactor>
+            <shipSpawnRateMultiplier>0.15</shipSpawnRateMultiplier>
+            <powerupLimit>2</powerupLimit>
+            <enemyShipLimit>5</enemyShipLimit>
+            <unlocks>
+                <saucer>true</saucer>
+                <graviton>true</graviton>
+                <cygnus>true</cygnus>
+                <novabomb>true</novabomb>
+            </unlocks>
+        </wave>
+    </waveManager>
+
+    <powerups>
+        <powerup id="tripple_shot">
+            <name>Tripple Shot</name>
+            <symbol>T</symbol>
+            <color>#FFD600</color> <!-- Bright yellow -->
+            <size>graviton</size>  <!-- Use graviton ship size for reference -->
+            <duration>8</duration> <!-- 20 seconds -->
+            <initialSpeedMin>0.3</initialSpeedMin>
+            <initialSpeedMax>0.7</initialSpeedMax>
+            <radius>14</radius>
+            <description>Fires three projectiles at once</description>
+        </powerup>
+        <maxVelocity>2</maxVelocity>
+        <attractDistance>100</attractDistance> <!-- Distance at which ship attracts powerups -->
+        <attractForce>1</attractForce> <!-- Strength of the attract force -->
+        <spawnChanceLarge>0.03</spawnChanceLarge> <!-- 3% chance -->
+        <spawnChanceMedium>0.05</spawnChanceMedium> <!-- 5% chance -->
+    </powerups>
+
+</blasteroids>
